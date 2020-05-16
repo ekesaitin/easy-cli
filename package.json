@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "serve": "parcel public/index.html --port 8088 -d serveDist --no-source-maps",
-    "build": "parcel build public/index.html --public-url ./ --no-source-maps"
+    "serve": "parcel src/index.html --port 8088 -d serve-dist --no-source-maps",
+    "build": "parcel build src/index.html --public-url ./ --no-source-maps"
   },
   "alias": {
-    "_src": "./src"
+    "src": "./src"
   },
   "license": "MIT",
   "devDependencies": {
@@ -16,6 +16,7 @@
     "typescript": "^3.9.2"
   },
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.15",
+    "src": "^1.1.2"
   }
 }
