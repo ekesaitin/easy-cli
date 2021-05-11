@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "serve": "parcel src/index.html --port 8088 -d serve-dist --no-source-maps",
+    "dev": "parcel src/index.html --port 8088 -d serve-dist --no-source-maps",
     "build": "parcel build src/index.html --public-url ./ --no-source-maps"
   },
   "alias": {
